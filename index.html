@@ -17,12 +17,14 @@
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
   <script>
-    function calculatedogage(age){
-      var dogYears=7*age;
-      console.log("Your dof is "+dogYears+"years old in dog years!");
+    function calculateSupply(age,numperday){
+      var totalneeded=(numperday*365)*(maxage-age);
+      var MAXAGE=80;
+      console.log("Assuming that you live to 80 years old, you will drink"+totalneeded+"cans of soda in your lifetime.");
     }
-    calculatedogage (2)
-  </scipt>
+    calculateSupply (17,1);
+    calculateSupply (74,84);
+  </script>
 
 
   </head>
