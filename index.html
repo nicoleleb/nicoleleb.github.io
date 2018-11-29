@@ -13,15 +13,14 @@
 
     <!-- Custom styles for this template -->
 
-  <script>
-    function calculateSupply(age,numperday){
-      var totalneeded=(numperday*365)*(maxage-age);
-      var MAXAGE=80;
-      console.log("Assuming that you live to 80 years old, you will drink"+totalneeded+"cans of soda in your lifetime.");
+ <script>
+    function calcCircumference(radius){
+      var circumference=(2)*(Math.PI)(radius);
+      console.log("The circumference of a circle with the raius of "+radius+"cm is"+circumference+"cm^s.");
     }
-    calculateSupply (17,1);
-    calculateSupply (74,84);
+  calcCircumference (3);
   </script>
+
 
 
   </head>
